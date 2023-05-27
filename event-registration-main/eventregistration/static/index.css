@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+}
+
+.Header {
+    height: 15%;
+    background-color: rgb(186, 186, 186);
+    padding: 1% 0 1% 0;
+    text-align: center;
+}
+
+.leftp {
+    padding-top: 5%;
+    padding-left: 2%;
+    width: 50%;
+    float: left;
+    font-size: 17px;
+}
+
+.leftp>input {
+    width: 90%;
+    font-size: 14px;
+}
+
+.rightp {
+    padding-top: 5%;
+}
+
+.rightp>input {
+    width: 45%;
+    font-size: 14px;
+}
+
+.below {
+    margin-left: 2%;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img {
+    padding-left: 2%;
+}

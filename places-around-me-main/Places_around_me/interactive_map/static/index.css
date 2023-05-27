@@ -1,0 +1,55 @@
+* {
+	background: rgb(220, 248, 255);
+	font-family: monaco, Consolas, Lucida Console, monospace;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	padding: Auto;
+	background-color: #00ADB5;
+}
+
+.column2 {
+	float: right;
+	width: 75%;
+}
+
+.brush {
+	text-align: center;
+}
+
+h1 {
+	color: #222831;
+	background-color: #00ADB5;
+}
+
+hr {
+	background-color: black;
+}
+
+links {
+	background-color: #00ADB5;
+	font-size: medium;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+a {
+	background-color: #00ADB5;
+	color: aliceblue;
+	font-size: large;
+	text-decoration: none;
+	padding: 0.1%;
+	padding-left: 2.2%;
+	padding-right: 2.2%;
+	font-size: medium;
+	color: #222831;
+	
+}
+
+a:hover {
+	background-color: #393E46;
+	color: #00ADB5;
+}

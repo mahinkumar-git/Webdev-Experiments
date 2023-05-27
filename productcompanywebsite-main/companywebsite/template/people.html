@@ -1,0 +1,55 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft-protection : People</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+</head>
+
+<body>
+    <div class="Header">
+        <h1 class="name">Soft-protection</h1>
+    </div>
+    <div class="Navbar">
+        <a href="/">Home</a>
+        <a href="/products">Products</a>
+        <a href="/people">People</a>
+        <a href="/contact">Contact us</a>
+    </div>
+    <div class="Bodypeople">
+        <h1>Meet the Incredible team...</h1>
+        <div class="peoplecolumn">
+            <div class="peoplerow">
+                <img src="{% static 'Peopleicon(0).png'%}" width="250px" height="250px">
+                <img src="{% static 'Peopleicon(1).png'%}" width="250px" height="250px">
+                <img src="{% static 'Peopleicon(2).png'%}" width="250px" height="250px">
+            </div>
+            <div class="peoplerown">
+                <h2>| ----------- JOE ----------- |<br>Senior Developer</h2>
+                <h2>| ----------- TIM ----------- |<br>Security Expert</h2>
+                <h2>| ----------- BOB ----------- |<br>Security Expert</h2>
+            </div>
+            <div class="peoplerow">
+                <img src="{% static 'Peopleicon(3).png'%}" width="250px" height="250px">
+                <img src="{% static 'Peopleicon(4).png'%}" width="250px" height="250px">
+                <img src="{% static 'Peopleicon(5).png'%}" width="250px" height="250px">
+            </div>
+            <div class="peoplerown">
+                <h2>| ----------- ALEX ---------- |<br>Frontend Developer</h2>
+                <h2>| -------- STEPHEN --------- |<br>Frontend Designer</h2>
+                <h2>| ----------- JEB ----------- |<br>Junior Developer</h2>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>copyright @ soft-protection.com, Developed by Mahinkumar</h2>
+    </footer>
+</body>
+
+</html>

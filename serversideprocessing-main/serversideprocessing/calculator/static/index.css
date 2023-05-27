@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+}
+
+.bg{
+    padding: 1%;
+    text-align: center;
+    background-color: rgb(230, 122, 0);
+    font-size: 48px;
+}
+
+.valin{
+    font-size: 48px;
+    border: 5px;
+    border-style:ridge;
+    border-color: coral;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+inputs{
+    display: flex;   
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    background-color:rgb(230, 122, 0);
+    font-size: 32px;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+}
+
+.maxw{
+    width: 100%;
+    font-size: 30px;
+}
+
+.bg1{
+    float: left;
+    text-align: center;
+    background-color: rgb(230, 122, 0);
+    font-size: 38px;
+    width: 60%;
+}
+
+.out{
+    float: right;
+    text-align: center;
+    border: 2px;
+    border-style: double;
+    border-color: blue;
+    font-family: 'Courier New';
+    font-size: 38px;
+    width: 39%;
+}

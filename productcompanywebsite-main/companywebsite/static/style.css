@@ -1,0 +1,112 @@
+* {
+    font-family: ubuntu;
+    margin: 0;
+}
+
+.name {
+    color: white;
+}
+
+.Header {
+    width: 30%;
+    float: left;
+    padding: 1%;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+}
+
+.Body {
+    background-image: url('index.png');
+    padding-top: 16%;
+    padding-bottom: 16%;
+    padding-left: 5%;
+    color: white;
+}
+
+.Navbar {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.el_body {
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome {
+    position: absolute;
+}
+
+.Navbar>a {
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(81, 118, 250);
+    transition: all 0.3s;
+}
+
+.el_body>a {
+    text-decoration: none;
+    font-size: 28px;
+    padding-left: 2%;
+    color: rgb(81, 118, 250);
+    transition: all 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 28px;
+    color: violet;
+}
+
+.peoplerow {
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.peoplecolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Bodypeople {
+    padding-top: 2%;
+    padding-left: 2%;
+    background-color: rgb(26, 26, 26);
+    text-align: left;
+}
+
+.peoplerown {
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(31, 31, 31);
+    font-size: small;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    margin-left: 16%;
+    margin-right: 16%;
+    font-family: monospace;
+    color: white
+}
+
+.cover{
+    background-image: -moz-linear-gradient(rgb(35, 35, 88) 0 0);
+    margin: 0;
+    position: relative;
+}
+
+.Header{
+    margin: 4%;
+    font-size: 28px;
+}
+
+.BookTitle{
+    margin: 4%;
+    font-size: 48px;
+    font-weight: 1500;
+}
+
+.short{
+    margin:0;
+    width:40%;
+    color: rgb(0, 251, 255);
+}
+
+h3{
+    font-size: 28px;
+    margin: 4%;
+}
+
+.long{
+    margin:0;
+    width:47%;
+    color: rgb(0, 251, 255);
+}
+
+.space{
+    padding-bottom: 40%;
+}
+
+.footsmall{
+    margin: 0%;
+    font-size: 28px;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 2%;
+}
+.footed{
+    margin: 4%;
+    font-size: 28px;
+    width: 40%;
+}
+.right{
+    float: right;
+    width: 20%;
+}

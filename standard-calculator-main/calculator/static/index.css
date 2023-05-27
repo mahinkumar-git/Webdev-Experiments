@@ -1,0 +1,30 @@
+
+
+table{
+    border: 1px solid orange(17, 16, 16);
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="text"]{
+    border: 1px solid orange(15, 13, 13);
+    padding: 50px 50px;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+input[type="button"]{
+    width: 100%;
+    padding: 50px 50px;
+    background-color:rgb(32, 51, 178);
+    border-radius: 2px;
+    font-size: 24px;
+    color: white;
+}
+.name{
+    margin:0;
+    margin: 0% 33.7% 0% 33.7%;
+    background-color:rgb(32, 51, 178) ;
+    color: white;
+    text-align: center;
+    float:center;
+}
